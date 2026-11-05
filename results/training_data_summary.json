@@ -1,0 +1,27 @@
+{
+ "train": 505,
+ "validation": 62,
+ "skipped": 2,
+ "train_domains": {
+  "logistics": 89,
+  "airline": 78,
+  "retail": 111,
+  "energy": 75,
+  "university": 60,
+  "hospital": 92
+ },
+ "train_kinds": {
+  "multi_step": 84,
+  "aggregation": 181,
+  "join": 102,
+  "python": 84,
+  "refusal": 54
+ },
+ "validation_kinds": {
+  "refusal": 6,
+  "multi_step": 10,
+  "join": 14,
+  "aggregation": 22,
+  "python": 10
+ }
+}

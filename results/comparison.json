@@ -1,0 +1,174 @@
+{
+ "Qwen 1.5B base": {
+  "model": "base",
+  "correct": 0,
+  "n": 38,
+  "by_category": {
+   "aggregation": {
+    "n": 8,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_steps": 5.12,
+    "mean_seconds": 5.43,
+    "mean_tokens": 6718
+   },
+   "join": {
+    "n": 10,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_steps": 5.3,
+    "mean_seconds": 6.57,
+    "mean_tokens": 6777
+   },
+   "multi_step": {
+    "n": 8,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_steps": 2.88,
+    "mean_seconds": 5.49,
+    "mean_tokens": 3858
+   },
+   "python": {
+    "n": 6,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_steps": 3.17,
+    "mean_seconds": 3.84,
+    "mean_tokens": 3385
+   },
+   "refusal": {
+    "n": 6,
+    "correct": 0,
+    "accuracy": 0.0,
+    "mean_steps": 3.0,
+    "mean_seconds": 3.89,
+    "mean_tokens": 3132
+   }
+  },
+  "finished": 28,
+  "native_final_answers": 28,
+  "recovered_from_text": 0,
+  "statuses": {
+   "no_final_answer": 5,
+   "answered": 28,
+   "too_many_errors": 5
+  },
+  "tool_errors": 77,
+  "mean_steps": 4.05,
+  "mean_seconds": 5.2
+ },
+ "Qwen 1.5B + LoRA": {
+  "model": "analyst",
+  "correct": 17,
+  "n": 38,
+  "by_category": {
+   "aggregation": {
+    "n": 8,
+    "correct": 6,
+    "accuracy": 0.75,
+    "mean_steps": 4.12,
+    "mean_seconds": 6.12,
+    "mean_tokens": 5973
+   },
+   "join": {
+    "n": 10,
+    "correct": 3,
+    "accuracy": 0.3,
+    "mean_steps": 4.6,
+    "mean_seconds": 7.32,
+    "mean_tokens": 6803
+   },
+   "multi_step": {
+    "n": 8,
+    "correct": 2,
+    "accuracy": 0.25,
+    "mean_steps": 6.12,
+    "mean_seconds": 12.56,
+    "mean_tokens": 10831
+   },
+   "python": {
+    "n": 6,
+    "correct": 3,
+    "accuracy": 0.5,
+    "mean_steps": 5.17,
+    "mean_seconds": 8.74,
+    "mean_tokens": 9026
+   },
+   "refusal": {
+    "n": 6,
+    "correct": 3,
+    "accuracy": 0.5,
+    "mean_steps": 3.83,
+    "mean_seconds": 5.89,
+    "mean_tokens": 5736
+   }
+  },
+  "finished": 36,
+  "native_final_answers": 36,
+  "recovered_from_text": 0,
+  "statuses": {
+   "answered": 36,
+   "too_many_errors": 2
+  },
+  "tool_errors": 14,
+  "mean_steps": 4.79,
+  "mean_seconds": 8.2
+ },
+ "Gemini 3.5 Flash Lite": {
+  "model": "gemini-3.5-flash-lite",
+  "correct": 37,
+  "n": 38,
+  "by_category": {
+   "aggregation": {
+    "n": 8,
+    "correct": 8,
+    "accuracy": 1.0,
+    "mean_steps": 5.25,
+    "mean_seconds": 120.45,
+    "mean_tokens": 7608
+   },
+   "join": {
+    "n": 10,
+    "correct": 10,
+    "accuracy": 1.0,
+    "mean_steps": 5.9,
+    "mean_seconds": 122.87,
+    "mean_tokens": 10068
+   },
+   "multi_step": {
+    "n": 8,
+    "correct": 8,
+    "accuracy": 1.0,
+    "mean_steps": 7.12,
+    "mean_seconds": 97.09,
+    "mean_tokens": 15658
+   },
+   "python": {
+    "n": 6,
+    "correct": 5,
+    "accuracy": 0.8333,
+    "mean_steps": 8.0,
+    "mean_seconds": 51.78,
+    "mean_tokens": 18467
+   },
+   "refusal": {
+    "n": 6,
+    "correct": 6,
+    "accuracy": 1.0,
+    "mean_steps": 6.83,
+    "mean_seconds": 41.8,
+    "mean_tokens": 13606
+   }
+  },
+  "finished": 37,
+  "native_final_answers": 37,
+  "recovered_from_text": 0,
+  "statuses": {
+   "answered": 37,
+   "max_steps": 1
+  },
+  "tool_errors": 20,
+  "mean_steps": 6.5,
+  "mean_seconds": 92.9
+ }
+}

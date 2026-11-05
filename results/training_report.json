@@ -1,0 +1,30 @@
+{
+ "train_examples": 505,
+ "validation_examples": 62,
+ "dropped": 0,
+ "trainable_parameters": 4358144,
+ "total_parameters": 1548072448,
+ "seconds_this_run": 0,
+ "device": "cuda",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "epoch": 3,
+ "step": 192,
+ "best_val": 0.005327558380200512,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.1199,
+   "validation_loss": 0.0143
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.0074,
+   "validation_loss": 0.0058
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.0037,
+   "validation_loss": 0.0053
+  }
+ ]
+}
